@@ -15,6 +15,7 @@ type Event struct {
 	BookTimeout time.Duration
 	EventAt time.Time
 	CreatedAt time.Time
+	DeletedAt time.Time
 }
 
 
